@@ -25,8 +25,12 @@ If you use just the `wuc` command, it will look for song in your current
 directory, but `wuc /path/to/folder/` will look for songs where you specify 
 (recommended). 
 
+To stop the song that is playing, use the `mocp -x`. It halts the moc program. 
+
 ## TODO
 
+- Way to stop the song
+- Make directory an obrigatory argument
 - Other file types (FLAC, AAC)
 - Add support for logging
 - Improve help
