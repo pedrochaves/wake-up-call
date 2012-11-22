@@ -23,7 +23,7 @@ sudo ./install.sh
 
 If you use just the `wuc` command, it will look for song in your current 
 directory, but `wuc /path/to/folder/` will look for songs where you specify 
-(reccomended). 
+(recommended). 
 
 ## TODO
 
