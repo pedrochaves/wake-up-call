@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Wake Up Call (wuc) install script
+#
+# Author: Pedro Chaves <http://github.com/pedrochaves>
+# URL: http://github.com/pedrochaves/wake-up-call
+#
+
 echo -e "Installing Wake Up Call dependencies..."
 apt-get install moc
 

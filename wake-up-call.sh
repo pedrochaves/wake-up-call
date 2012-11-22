@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Wake Up Call
+# Wake Up Call (wuc)
 # A small bash script that chooses a random song of the folder you specify
 # as an argument. Defaults to the current folder (using pwd)
 #
