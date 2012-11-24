@@ -46,7 +46,7 @@ Example:
 
 ```
 # Waking up at 6AM
-6 0   * * *   pedro    wuc /home/pedro/Music
+0 6   * * *   pedro    wuc /home/pedro/Music
 ```
 
 ## TODO
