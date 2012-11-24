@@ -42,7 +42,7 @@ show_help()
 play_song()
 {
     # Finding our file
-    FILE=`find "${1}" -name "*.mp3" -o -name "*.wav" -o -name "*.ogg" | sort --random-sort | head -1`
+    FILE=`find "${1}" -name "*.mp3" -o -name "*.wav" -o -name "*.ogg" -o -name "*.flac" -o -name "*.aac" -o -name "*.wma" | sort --random-sort | head -1`
 
     if [ ! -f "$FILE" ]
     then
