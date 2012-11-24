@@ -15,13 +15,13 @@
 
 main()
 {
-    if [ "$1" == "-h" ]
+    if [ "$1" == "-h" -o $# -eq 0 ]
     then
         show_help
 
         exit 1
     else
-        play_song $(get_folder_name $1)
+        play_song "$1"
         
         exit 0
     fi
@@ -37,16 +37,6 @@ show_help()
     echo -e
     echo -e "OPTIONS"
     echo -e "-h: This text and usage info"
-}
-
-get_folder_name()
-{
-    if [ $1 ]
-    then
-        echo "$1"
-    fi
-
-    pwd
 }
 
 play_song()

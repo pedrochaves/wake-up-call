@@ -30,7 +30,6 @@ To stop the song that is playing, use the `mocp -x`. It halts the moc program.
 ## TODO
 
 - Way to stop the song
-- Make directory an obrigatory argument
 - Other file types (FLAC, AAC)
 - Add support for logging
 - Improve help
