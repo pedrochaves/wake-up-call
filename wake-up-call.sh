@@ -18,13 +18,19 @@ main()
     if [ "$1" == "-h" -o $# -eq 0 ]
     then
         show_help
-
-        exit 1
+    elif [ "$1" == "-s" ]
+    then
+        stop_song
     else
         play_song "$1"
-        
-        exit 0
     fi
+
+    exit 0
+}
+
+stop_song()
+{
+    mocp -s
 }
 
 show_help()
@@ -37,6 +43,7 @@ show_help()
     echo -e
     echo -e "OPTIONS"
     echo -e "-h: This text and usage info"
+    echo -e "-s: Stops the song that is playing (shortcut to mocp -s)"
 }
 
 play_song()

@@ -21,14 +21,21 @@ sudo ./install.sh
 
 ## Usage
 
-If you use just the `wuc` command, it will look for song in your current 
-directory, but `wuc /path/to/folder/` will look for songs where you specify 
-(recommended). 
+### Playing a random song
 
-To stop the song that is playing, use the `mocp -x`. It halts the moc program. 
+```bash
+wuc path/to/folder
+```
+
+### Stoping the song that is currently playing
+
+```bash
+wuc -s
+```
+
+(this actually is a shortcut to `mocp -s`)
 
 ## TODO
 
-- Way to stop the song
 - Add support for logging
 - Improve help
